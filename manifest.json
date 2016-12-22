@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "easy word",
+  "version": "0.0.1",
+  "description": "easy to record word.",
+  "icons": { 
+    "16": "icon/icon_16.png",
+    "19": "icon/icon_19.png",
+    "38": "icon/icon_38.png",
+    "48": "icon/icon_48.png",
+    "128": "icon/icon_128.png"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": ["main.js"]
+  },
+  "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["main.js"]
+        }
+    ],
+  "permissions": ["contextMenus", "storage"],
+  "browser_action": {
+    "default_title": "Easy Word",
+    "default_icon": "icon/icon_19.png",
+    "default_popup": "popup/popup.html"
+  }
+}
