@@ -1,5 +1,5 @@
 # Easy word
-快速记录单词
+快速记录单词的 chrome 扩展
 
 ## 使用
 选中单词 ==> 右键 ===> Add to list
