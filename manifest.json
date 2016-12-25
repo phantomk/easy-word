@@ -20,6 +20,7 @@
             "js": ["main.js"]
         }
     ],
+  "options_page": "options/options.html",
   "permissions": ["contextMenus", "storage"],
   "browser_action": {
     "default_title": "Easy Word",
