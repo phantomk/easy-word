@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "easy word",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "easy to record word.",
   "icons": { 
     "16": "icon/icon_16.png",
